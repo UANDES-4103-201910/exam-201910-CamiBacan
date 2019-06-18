@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  root :to => 'home_controller#index'
+
+  get 'home_controller/index'
   resources :orders
   resources :addresses
   resources :users
