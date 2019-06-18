@@ -21,13 +21,16 @@
 }
 
 .container-fluid{
+  margin: 0;
+  padding: 0;
   width: 100%;
-  background: #F0F8FF;
-  color: #000000;
+
 }
 
-.logo{
+.navbar-brand{
   font-size: xx-large;
+  background: #F0F8FF;
+  color: #000000;
 }
 body{
     padding-top: 80px;

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'shopping_carts_controller/add_to_cart'
   root :to => 'home_controller#index'
 
   get 'home_controller/index'
